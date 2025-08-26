@@ -18,6 +18,13 @@
     background-color: white;
 }
 
+.tab-letest>ul>li>a:hover {
+    color: red !important;
+    background-color: white;
+    border-bottom: 2px solid red;
+    border-width: 100%;
+}
+
 .tranding-heading {
     background-color: #A9A9A9;
 }
@@ -30,6 +37,9 @@
     border-bottom: 1px black !important;
 }
 
+p {
+    font-size: 13px;
+}
 
 
 
