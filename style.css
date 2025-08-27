@@ -16,6 +16,8 @@
 .header-nav>ul>li>a:hover {
     color: black !important;
     background-color: white;
+        transition: all 0.5s;
+
 }
 
 .tab-letest>ul>li>a:hover {
@@ -23,6 +25,13 @@
     background-color: white;
     border-bottom: 2px solid red;
     border-width: 100%;
+        transition: all 0.5s;
+
+}
+
+.hover-world a:hover {
+    color: red !important;
+    transition: all 0.5s;
 }
 
 .tranding-heading {
