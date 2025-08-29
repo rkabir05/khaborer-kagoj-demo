@@ -13,10 +13,16 @@
     background-color: #FFE4B5;
 }
 
+
+.english-hover > h3 > a:hover {
+    font-weight: bold;
+}
+
+
 .header-nav>ul>li>a:hover {
     color: black !important;
     background-color: white;
-        transition: all 0.5s;
+    transition: all 0.5s;
 
 }
 
