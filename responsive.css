@@ -1,0 +1,12 @@
+  @media only screen and (max-width:767px) {
+
+    .border-color {
+        border-color: red !important;
+    }
+
+    .mw-75-percent {
+        width: 75%;
+}
+
+
+}

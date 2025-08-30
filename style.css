@@ -5,6 +5,18 @@
 }
 
 
+@font-face {
+    font-family: SolaimanLipiNormal;
+    src: url('fonts/solaimanlipi_20-04-07.eot');
+    src: url('fonts/solaimanlipi_20-04-07.eot')format('embedded-opentype'), url('fonts/solaimanlipi_20-04-07.woff') format('woff'), url('fonts/solaimanlipi_20-04-07.ttf') format('truetype'), url('fonts/solaimanlipi_20-04-07.svg#SolaimanLipiNormal') format('svg');
+}
+
+body {
+    font-family: SolaimanLipiNormal;
+    font-size: 15px;
+    line-height: 150%;
+}
+
 .search-btn-height {
     height: 30px;
 }
@@ -16,6 +28,17 @@
 
 .english-hover > h3 > a:hover {
     font-weight: bold;
+}
+
+.heading>h1>a:hover,
+.heading>h2>a:hover,
+.heading>h3>a:hover,
+.heading>h4>a:hover,
+.heading>h5>a:hover,
+.heading>h6>a:hover {
+    color: red !important;
+    transition: all 0.5s ease-in-out;
+
 }
 
 
