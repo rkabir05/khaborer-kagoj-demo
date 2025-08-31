@@ -8,5 +8,9 @@
         width: 75%;
 }
 
+.border-left-none {
+  border-left: none;
+}
+
 
 }
