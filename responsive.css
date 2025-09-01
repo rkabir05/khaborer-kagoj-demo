@@ -12,5 +12,13 @@
   border-left: none;
 }
 
+.tranding-bg-none {
+    background: none;
+}
+
+.heading>h6 {
+  font-size: 20px;
+}
+
 
 }
