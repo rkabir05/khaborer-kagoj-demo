@@ -18,7 +18,13 @@
 
 .heading>h6 {
   font-size: 20px;
+line-height: normal !important;}
+
+.heading>ul>li>a {
+  font-size: 20px;
 }
+
+
 
 
 }
