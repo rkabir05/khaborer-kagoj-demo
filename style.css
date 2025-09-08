@@ -54,6 +54,13 @@ body {
     font-size: 25px;
 }
 
+.social-icon-width {
+    width: 50%;
+}
+
+.address>p{
+    font-size: 18px;
+}
 
 
 
