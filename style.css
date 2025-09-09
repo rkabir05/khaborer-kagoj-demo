@@ -102,10 +102,32 @@ body {
 }
 
 p {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 
+.image-lead-category {
+    position: relative;
+    width: 100%;
+    max-width: 660px;
+    margin: auto;
+}
+
+.image-lead-category img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.lead-heading-category {
+    position: absolute;
+    bottom: 79px;
+    width: 33.3%;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 0px 50px;
+    font-size: 1.1rem;
+}
 
 
 .font-size-10 {
