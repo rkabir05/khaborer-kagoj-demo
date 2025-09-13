@@ -129,6 +129,10 @@ p {
     font-size: 1.1rem;
 } */
 
+.bg-opacity {
+        background: rgba(0, 0, 0, 0.3);
+}
+
 
 .font-size-10 {
     font-size: 10px;
