@@ -134,6 +134,22 @@ p {
 }
 
 
+.division>li:first-child {
+    list-style: none;
+}
+
+.division-box{
+    width: 55%;
+}
+
+.ruposi-last {
+    width: 18%;
+}
+
+.ruposi-fist {
+    width: 18%;
+}
+
 .font-size-10 {
     font-size: 10px;
 }
