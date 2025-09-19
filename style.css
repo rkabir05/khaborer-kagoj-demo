@@ -38,6 +38,7 @@ body {
     font-size: 14px;
 }
 
+
 .bi-house-door:hover,
 .heading>h1>a:hover,
 .heading>h2>a:hover,
@@ -48,6 +49,13 @@ body {
     color: red !important;
     transition: all 0.5s ease-in-out;
 
+}
+
+.jukti-lead a img:hover {
+    border: 1px;
+    border-color: red solid;
+    transition: all 0.5s ease-in-out;
+    border-radius: 50%;
 }
 
 .heading>h6{
@@ -101,7 +109,7 @@ body {
     border-bottom: 1px black !important;
 }
 
-p {
+.p {
     font-size: 15px;
 }
 
