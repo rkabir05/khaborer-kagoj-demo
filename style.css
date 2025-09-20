@@ -52,11 +52,18 @@ body {
 }
 
 .jukti-lead a img:hover {
-    border: 1px;
-    border-color: red solid;
+    border: 3px solid red;
+    border-radius:75% !important;
+    overflow: hidden;
     transition: all 0.5s ease-in-out;
-    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+    
 }
+
+
+
 
 .heading>h6{
     font-size: 25px;
@@ -138,8 +145,12 @@ body {
 } */
 
 .bg-opacity {
-        background: rgba(0, 0, 0, 0.3);
+        background: rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        
 }
+
+
 
 
 .division>li:first-child {
