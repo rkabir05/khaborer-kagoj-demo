@@ -1,3 +1,4 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&display=swap'); */
 *{
     margin: 0;
     padding: 0;
@@ -12,9 +13,11 @@
 }
 
 body {
+    /* font-family: "Baloo Da 2", sans-serif; */
     font-family: SolaimanLipiNormal;
     font-size: 15px;
-    line-height: 150%;
+    line-height: 150%;
+   overflow-x: hidden;
 }
 
 .search-btn-height {
@@ -39,6 +42,16 @@ body {
 }
 
 
+.bi-house-door,
+.heading>h1>a,
+.heading>h2>a,
+.heading>h3>a,
+.heading>h4>a,
+.heading>h5>a,
+.heading>h6>a{
+    transition: all 0.3s ease-in-out;
+
+}
 .bi-house-door:hover,
 .heading>h1>a:hover,
 .heading>h2>a:hover,
@@ -47,9 +60,8 @@ body {
 .heading>h5>a:hover,
 .heading>h6>a:hover {
     color: red !important;
-    transition: all 0.5s ease-in-out;
-
 }
+
 
 .jukti-lead a img:hover {
     border: 3px solid red;
@@ -58,12 +70,7 @@ body {
     transition: all 0.5s ease-in-out;
     display: flex;
     justify-content: center;
-
-    
 }
-
-
-
 
 .heading>h6{
     font-size: 25px;
@@ -86,18 +93,17 @@ body {
 
 }
 
+
 .tab-letest>ul>li>a:hover {
     color: red !important;
     background-color: white;
     border-bottom: 2px solid red;
     border-width: 100%;
-        transition: all 0.5s;
 
 }
 
 .hover-world a:hover {
     color: red !important;
-    transition: all 0.5s;
 }
 
 .tranding-heading {
@@ -170,7 +176,7 @@ body {
 }
 
 .font-size-10 {
-    font-size: 10px;
+    font-size: 10px ;
 }
 
 .font-size-11 {
@@ -189,7 +195,7 @@ body {
 }
 
 .font-size-15 {
-    font-size: 15px;
+    font-size: 15px  !important;
 }
 
 .font-size-16 {
@@ -254,5 +260,59 @@ body {
 .font-size-30 {
     font-size: 30px;
 }
+
+
+/*---------------additional code by afrid--------------------*/
+li.text-danger:nth-child(1) {
+    list-style: none;
+}
+
+.category::-webkit-scrollbar{
+    height: 5px !important;
+}
+.category::-webkit-scrollbar-thumb{
+    background-color: lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.category::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(201, 201, 201);
+}
+.tab-letest>ul>li>a{
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s;
+}
+.header-nav>ul>li>a{
+    transition: all 0.5s;
+}
+.hover-world a{
+    transition: all 0.5s;
+}
+
+.border-for-this-section {border-right: 1px solid #999999;}
+
+.border-for-this-section:last-child {border-right: 0;}
+
+
+.border-md {
+ border: 1px solid #DCDCDC;   
+}
+
+.border-md-top {
+ border-top: 1px solid #DCDCDC;   
+} 
+
+.border-md-end {
+ border-right: 1px solid #DCDCDC;   
+} 
+
+.border-md-top {
+ border-left: 1px solid #DCDCDC;   
+} 
+
+.border-md-bottom {
+ border-bottom: 1px solid #DCDCDC;   
+} 
+
 
 
