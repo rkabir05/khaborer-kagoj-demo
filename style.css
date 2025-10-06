@@ -84,6 +84,9 @@ body {
     font-size: 18px;
 }
 
+.list-style-none>ul>li {
+    list-style: none;
+}
 
 
 .header-nav>ul>li>a:hover {
