@@ -306,8 +306,13 @@ li.text-danger:nth-child(1) {
 } 
 
 .border-md-right {
- border-right: 1px solid #DCDCDC !important;   
+ border-right: 1px solid #DCDCDC !important;  
 } 
+
+/* .border-md-right-p {
+ border-right: 1px solid #DCDCDC !important;  
+ height: 150px;
+}  */
 
 .border-md-left {
  border-left: 1px solid #DCDCDC !important;   
